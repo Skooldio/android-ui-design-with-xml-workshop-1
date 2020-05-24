@@ -17,21 +17,16 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:padding="40dp">
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="32dp"
-            android:layout_marginTop="24dp"
             android:background="@drawable/selector_button_background_borderless"
             android:gravity="center"
             android:minWidth="0dp"
             android:minHeight="0dp"
-            android:paddingStart="16dp"
-            android:paddingTop="8dp"
-            android:paddingEnd="16dp"
-            android:paddingBottom="8dp"
             android:text="@string/back"
             android:textAllCaps="false"
             android:textColor="@color/white"
@@ -67,44 +62,32 @@
 
         <EditText
             android:layout_width="match_parent"
-            android:layout_height="42dp"
-            android:layout_marginStart="48dp"
-            android:layout_marginEnd="48dp"
+            android:layout_height="wrap_content"
             android:background="@drawable/selector_edit_text_background_white"
             android:hint="@string/email"
             android:inputType="textEmailAddress"
-            android:paddingStart="32dp"
-            android:paddingEnd="32dp"
             android:textColor="@color/white"
             android:textColorHint="@color/white_alpha_70"
             android:textSize="16sp" />
 
         <EditText
             android:layout_width="match_parent"
-            android:layout_height="42dp"
-            android:layout_marginStart="48dp"
+            android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
-            android:layout_marginEnd="48dp"
             android:background="@drawable/selector_edit_text_background_white"
             android:hint="@string/password"
             android:inputType="textPassword"
-            android:paddingStart="32dp"
-            android:paddingEnd="32dp"
             android:textColor="@color/white"
             android:textColorHint="@color/white_alpha_70"
             android:textSize="16sp" />
 
         <EditText
             android:layout_width="match_parent"
-            android:layout_height="42dp"
-            android:layout_marginStart="48dp"
+            android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
-            android:layout_marginEnd="48dp"
             android:background="@drawable/selector_edit_text_background_white"
             android:hint="@string/confirm_password"
             android:inputType="textPassword"
-            android:paddingStart="32dp"
-            android:paddingEnd="32dp"
             android:textColor="@color/white"
             android:textColorHint="@color/white_alpha_70"
             android:textSize="16sp" />
@@ -118,7 +101,7 @@
             android:background="@drawable/selector_button_background_white"
             android:text="@string/create_account"
             android:textAllCaps="false"
-            android:textColor="@color/pink"
+            android:textColor="@color/pink_dark"
             android:textSize="16sp" />
 
         <LinearLayout
@@ -143,7 +126,6 @@
                 android:background="@drawable/selector_button_background_borderless"
                 android:minWidth="0dp"
                 android:minHeight="0dp"
-                android:padding="4dp"
                 android:text="@string/login"
                 android:textAllCaps="false"
                 android:textColor="@color/white"

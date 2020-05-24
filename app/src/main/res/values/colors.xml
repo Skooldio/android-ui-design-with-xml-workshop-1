@@ -7,9 +7,9 @@
 
     <color name="pink">#EA4C89</color>
     <color name="pink_dark">#CF316F</color>
-    <color name="pink_alpha_80">#CCFF6FA7</color>
-    <color name="black_alpha_8">#20000000</color>
-    <color name="black_alpha_30">#1E000000</color>
+    <color name="pink_alpha_70">#B3FF6FA7</color>
+    <color name="black_alpha_10">#1A000000</color>
+    <color name="gray">#C7C7C7</color>
     <color name="white">#FFFFFF</color>
     <color name="white_alpha_70">#B3FFFFFF</color>
     <color name="transparent">#00FFFFFF</color>

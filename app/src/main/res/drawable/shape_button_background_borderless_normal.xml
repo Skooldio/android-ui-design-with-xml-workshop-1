@@ -5,4 +5,10 @@
 
     <solid android:color="@color/transparent" />
 
+    <padding
+        android:bottom="8dp"
+        android:left="8dp"
+        android:right="8dp"
+        android:top="8dp" />
+
 </shape>
